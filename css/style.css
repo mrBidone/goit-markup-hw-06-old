@@ -871,14 +871,10 @@ p {
 }
 
 .checkbox__link {
+  margin-left: 3px;
   color: var(--accent-color);
-  transition: color var(--default-duration) var(--timing-function);
 }
 
-.checkbox__link:hover,
-.checkbox__link:focus {
-  color: #188ce8;
-}
 .modal-forms__button {
   display: block;
   min-width: 200px;
